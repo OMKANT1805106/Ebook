@@ -16,7 +16,6 @@ import com.DAO.BookDAOimpl;
 import com.DB.DBConnect;
 import com.entity.BookDtls;
 
-
 @MultipartConfig
 @WebServlet("/add_books")
 public class BooksAdd extends HttpServlet{
